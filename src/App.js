@@ -4,7 +4,6 @@ import About from './components/About';
 import Gallery from './components/Gallery';
 
 function App() {
-
     const [categories] = useState([
         { name: "commercial", description: "Photos of grocery stores, food trucks, and other commercial projects" },
         { name: "portraits", description: "Portraits of people in my life" },
